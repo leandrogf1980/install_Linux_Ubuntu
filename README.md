@@ -2,12 +2,10 @@
 
 1- Abra o **“Prompt de Comando (cmd)”**
 
-2- Comando que define que vamos trabalhar por padrão com o WSL versão 2.
-
+2- Comando que define que vamos trabalhar por padrão com o WSL versão 2.  
 **`wsl --set-default-version 2`**
 
-3- Vamos instalar o **Linux Ubuntu versão 20.04**.
-
+3- Vamos instalar o **Linux Ubuntu versão 20.04**.  
 **`wsl --install -d Ubuntu-20.04`**
 
 Após executar o comando acima, irá exibir uma janela do terminal do Linux Ubuntu, conforme imagem abaixo:
@@ -20,14 +18,11 @@ Caso exiba a mensagem abaixo, favor acessar o site da Microsoft (https://aka.ms/
 
 A partir daqui os comandos serão no terminal do Linux.
 
-4- Após a instalação, buscar a lista de atualizações para o SO.
-
+4- Após a instalação, buscar a lista de atualizações para o SO.  
 **`sudo apt update`**
 
-5- Fazer a atualização do SO.
-
+5- Fazer a atualização do SO.  
 **`sudo apt upgrade`**
 
-Para forçar o restart do __kernel Linux__, na janela de **terminal do Windows (cmd)** executar o comando:
-
+Para forçar o restart do __kernel Linux__, na janela de **terminal do Windows (cmd)** executar o comando:  
 **`wsl --shutdown`**
